@@ -1,0 +1,34 @@
+Attribute	Requires	
+Description	
+Space
+
+`s# Sorted	
+Elements be sorted	By marking the list as sorted, binary search can be perfomed instead of fully scanning the column, speeding up many operations.	
+None
+
+`u# Unique	
+Elements be unique	Marks list as unique and creates a unique hash table in the background, allowing constant time lookup of elements.	
+Large
+
+`g# Grouped	-	
+Attribute that is closest to indexing in standard databases, a lookup table from each distinct value in the table is created to map to the positions where that value occurs. Allowing much quicker lookup of them entries.	
+Largest
+
+`p# Parted	
+All elements of same value occur one sequential block.	By storing the same items continuously on-disk reading using standard hard drives is much faster.	
+Small
+
+
+
+Applying Attributes
+
+All attributes can be applied to lists that meets that attribute's requirements. Since columns of a table are themselves lists, attributes can be applied to them. The three formats for applying attributes are:
+
+l:`s#2 4 7 9        
+    - Specify during list creation
+
+@[`.; `listl; `s#] 
+    - Functional apply, i.e. to the variable list l in the default namespace `. apply the sorted `s# attribute.
+
+update `s#time from `t 
+    - update a table to apply the attribute.
