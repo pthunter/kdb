@@ -1,0 +1,48 @@
+Basic:
+
+    * 		.z.a (IP address) 
+    * 		.z.b (dependencies) 
+    * 		.z.c (cores) 
+    * 		.z.e (TLS connection status) 
+    * 		.z.f (file) 
+    * 		.z.h (host) 
+    * 		.z.i (PID) 
+    * 		.z.K (version) 
+    * 		.z.k (release date) 
+    * 		.z.l (license) 
+    * 		.z.N (local timespan) 
+    * 		.z.n (UTC timespan) 
+    * 		.z.o (OS version) 
+    * 		.z.P (local timestamp) 
+    * 		.z.p (UTC timestamp) 
+    * 		.z.pm (HTTP options) 
+    * 		.z.q (quiet mode) 
+    * 		.z.s (self) 
+    * 		.z.u (user ID) 
+    * 		.z.W (handles) 
+    * 		.z.w (handle) 
+    * 		.z.X (raw command line) 
+    * 		.z.x (argv) 
+    * 		.z.Z (local datetime) 
+    * 		.z.z (UTC datetime) 
+    * 		.z.zd (zip defaults) 
+    * 		.z.T .z.t .z.D .z.d (time/date shortcuts) 
+    *  
+* 		Callbacks
+    * 		.z.ac (HTTP auth from cookie) 
+    * 		.z.bm (msg validator) 
+    * 		.z.exit (action on exit) 
+    * 		.z.pc (close) 
+    * 		.z.pd (peach handles) 
+    * 		.z.pg (get) 
+    * 		.z.ph (HTTP get) 
+    * 		.z.pi (input) 
+    * 		.z.po (open) 
+    * 		.z.pp (HTTP post) 
+    * 		.z.ps (set) 
+    * 		.z.pw (validate user) 
+    * 		.z.ts (timer ) 
+    * 		.z.vs (value set) 
+    * 		.z.wc (websocket close) 
+    * 		.z.wo (websocket open) 
+    * 		.z.ws (websockets)
